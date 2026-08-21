@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive files that should never be committed
+*.env
+credentials*
+*secret*
+
+# Data and outputs that must never be committed
+*.xlsx
+*.csv
+*.dta
+*.parquet
+*.db
+scores/
+exports/
